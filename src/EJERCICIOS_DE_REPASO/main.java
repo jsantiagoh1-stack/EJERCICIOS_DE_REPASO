@@ -123,8 +123,12 @@ public class main {
 	}
 
 	private static void ejercicio7() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		System.out.print("DIVISIBLES ENTRE 3 Y NO ENTRE 2: ");
+		for (int i = 1; i <= n; i++) {
+			if ( i % 3 == 0 && i % 2 !=0) System.out.println(i);
+		}
 	}
 
 	private static void ejercicio8() {
