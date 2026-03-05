@@ -132,8 +132,11 @@ public class main {
 	}
 
 	private static void ejercicio8() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE LA HORA EN FORMATO 24H (O-23): ");
+		int hora = sc.nextInt();
+		if (hora >=6 && hora <= 11) System.out.println("MAÑANA");
+		else if (hora >=12 && hora <= 18) System.out.println("TARDE");
+		else if (hora >=19 && hora <= 23) System.out.println("NOCHE");
 	}
 
 	private static void ejercicio9() {
