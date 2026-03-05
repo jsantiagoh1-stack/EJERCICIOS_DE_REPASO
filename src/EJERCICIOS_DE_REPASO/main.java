@@ -90,7 +90,17 @@ public class main {
 	}
 
 	private static void ejercicio4() {
-		// TODO Auto-generated method stub
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		int sumaPares = 0, contadoresPares = 0; 
+		for (int i = 1; i <= n; i++) {
+			if (i % 2 == 0) 
+				sumaPares += i; 
+			contadoresPares++;
+			
+		}
+		if (contadoresPares > 0) System.out.println("PROMEDIO DE PARES: " + ((double) sumaPares / contadoresPares));
+		else System.out.println("NO HAY NUMERO PARES.");
 		
 	}
 
