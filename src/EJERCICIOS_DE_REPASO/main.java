@@ -55,8 +55,13 @@ public class main {
 	}
 
 	private static void ejercicio1() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		int suma = 0;
+		for (int i = 1; i <= n; i++) {
+			if (i % 4 == 0) suma +=i;
+		}
+		System.out.println("LA SUMA DE DIVISIBLES ENTRE 4 ES " + suma);
 	}
 
 	private static void ejercicio2() {
