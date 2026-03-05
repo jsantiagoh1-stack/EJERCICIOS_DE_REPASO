@@ -65,8 +65,13 @@ public class main {
 	}
 
 	private static void ejercicio2() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		long factorial = 1;
+		for (int i = 1; i <= n; i++) {
+			 factorial *=i;
+		}
+		System.out.println("EL FACTORIAL DE " + n + " es " + factorial);
 	}
 
 	private static void ejercicio3() {
