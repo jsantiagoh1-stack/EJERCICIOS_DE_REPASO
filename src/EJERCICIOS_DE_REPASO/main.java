@@ -116,8 +116,10 @@ public class main {
 	}
 
 	private static void ejercicio6() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		if (n % 7 == 0 || n % 11 == 0) System.out.println(n + " ES MULTIPLO DE 7 O DE 11.");
+		else System.out.println(n+ " NO ES MULTIPLO DE 7 NI DE 11.");
 	}
 
 	private static void ejercicio7() {
