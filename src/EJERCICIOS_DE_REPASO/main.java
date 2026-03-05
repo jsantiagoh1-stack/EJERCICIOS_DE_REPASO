@@ -75,7 +75,17 @@ public class main {
 	}
 
 	private static void ejercicio3() {
-		// TODO Auto-generated method stub
+		System.out.print("INGRESE LA CANTIDAD DE NUMEROS: ");
+		int n = sc.nextInt();
+		int positivos = 0, negativos = 0, ceros = 0;
+		for (int i = 1; i <= n; i++) {
+			System.out.print("INGRESE NUMEROS: ");
+			 int num = sc.nextInt();
+			 if (num > 0) positivos++;
+			 else if (num < 0) negativos ++;
+			 else ceros++;
+		}
+		System.out.println("POSITIVOS: " + positivos + " NEGATIVOS: " + negativos + " CEROS: " + ceros);
 		
 	}
 
