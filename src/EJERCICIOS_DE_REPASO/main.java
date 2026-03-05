@@ -105,8 +105,14 @@ public class main {
 	}
 
 	private static void ejercicio5() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE UN NUMERO: ");
+		int n = Math.abs(sc.nextInt());
+		int sumaDigitos = 0;
+		while (n > 0 ) {
+			sumaDigitos += n % 10;
+			n /= 10;
+		}
+		System.out.println("LA SUMA DE LOS DIGITOS ES: " + sumaDigitos);
 	}
 
 	private static void ejercicio6() {
