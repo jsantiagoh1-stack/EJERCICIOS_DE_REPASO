@@ -1,10 +1,162 @@
 package EJERCICIOS_DE_REPASO;
 
+import java.util.Scanner;
+
 public class main {
 
+	static Scanner sc = new Scanner(System.in);
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		int opcion = 0;
+		
+		do {
+			System.out.println("MENU DE EJERCICIOS");
+			System.out.println("1 AL 5 CICLOS NUMERICOS");
+			System.out.println("6 AL 8 CONDICIONES");
+			System.out.println("9 AL 10 SWICHT");
+			System.out.println("11 AL 15 ANALISIS NUMERICOS");
+			System.out.println("16 AL 20 TRANSFORMACIONES");
+			System.out.println("0 PARA SALIR");
+			System.out.println("ELIJA EL EJERCICIOQUE DESEA (0-20): ");
+			
+			opcion = sc.nextInt();
+			
+			System.out.println("--------------------------------");
+			switch (opcion) {
+			case 1: ejercicio1(); break;
+			case 2: ejercicio2(); break;
+			case 3: ejercicio3(); break;
+			case 4: ejercicio4(); break;
+			case 5: ejercicio5(); break;
+			case 6: ejercicio6(); break;
+			case 7: ejercicio7(); break;
+			case 8: ejercicio8(); break;
+			case 9: ejercicio9(); break;
+			case 10: ejercicio10(); break;
+			case 11: ejercicio11(); break;
+			case 12: ejercicio12(); break;
+			case 13: ejercicio13(); break;
+			case 14: ejercicio14(); break;
+			case 15: ejercicio15(); break;
+			case 16: ejercicio16(); break;
+			case 17: ejercicio17(); break;
+			case 18: ejercicio18(); break;
+			case 19: ejercicio19(); break;
+			case 20: ejercicio20(); break;
+			case 0: System.out.println("HAZ SALIDO"); break;
+			default: System.out.println("OPCION NO VALIDA"); break;
+			
+			}
+			
+		} while (opcion !=0);
 
+
+	}
+
+	private static void ejercicio1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio3() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio4() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio5() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio6() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio7() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio8() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio9() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio10() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio11() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio12() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio13() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio14() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio15() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio16() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio17() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio18() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio19() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio20() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ejercicio8() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
