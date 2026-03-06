@@ -231,8 +231,14 @@ public class main {
 	}
 
 	private static void ejercicio17() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		boolean esPotencia = n > 0;
+		while (n > 1 && esPotencia ) {
+			if (n % 2 !=0) esPotencia = false;
+			n /= 2;
+		}
+		System.out.println(esPotencia ? "ES POTENCIA DE 2," : "NO ES POTENCIA DE 2. ");
 	}
 
 	private static void ejercicio18() {
