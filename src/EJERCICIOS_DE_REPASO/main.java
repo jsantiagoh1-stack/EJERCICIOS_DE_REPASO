@@ -224,7 +224,9 @@ public class main {
 	}
 
 	private static void ejercicio16() {
-		// TODO Auto-generated method stub
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		for (int i = 1; i <= n; i++) System.out.println(i * 6);
 		
 	}
 
@@ -244,11 +246,6 @@ public class main {
 	}
 
 	private static void ejercicio20() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private static void ejercicio8() {
 		// TODO Auto-generated method stub
 		
 	}
