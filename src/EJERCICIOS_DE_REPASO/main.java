@@ -211,8 +211,16 @@ public class main {
 		
 
 	private static void ejercicio15() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE LA CANTIDAD DE NUMEROS: ");
+		int n = sc.nextInt();
+		int sumaNegativos = 0, contadorNeg = 0;
+		for (int i = 0; i < n; i++ ) {
+			System.out.print("INGRESE NUMERO: ");
+			int num = sc.nextInt();
+			if (num < 0) { sumaNegativos += num; contadorNeg++; }
+		}
+		if (contadorNeg > 0) System.out.println("PROMEDIO NEGATIVOS: " + ((double) sumaNegativos / contadorNeg));
+		else System.out.println("NO HAY NEGATIVOS.");
 	}
 
 	private static void ejercicio16() {
