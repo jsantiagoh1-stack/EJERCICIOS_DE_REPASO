@@ -253,8 +253,10 @@ public class main {
 	}
 
 	private static void ejercicio19() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE N: ");
+		int n = sc.nextInt();
+		int suma = ( n * (n + 1)) / 2;
+		System.out.println("LA SUMA ES " + suma + " Y ES " + (suma % 2 == 0 ? "PAR." : "IMPAR."));
 	}
 
 	private static void ejercicio20() {
