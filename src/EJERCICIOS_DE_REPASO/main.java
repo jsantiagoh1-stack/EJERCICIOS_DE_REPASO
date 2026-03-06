@@ -242,8 +242,14 @@ public class main {
 	}
 
 	private static void ejercicio18() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE UN NUMERO: ");
+		int n = sc.nextInt();
+		int invertido = 0;
+		while (n !=0) {
+			invertido = invertido * 10 + (n % 10);
+			n/=10;
+		}
+		System.out.println("INVERTIDO: " + invertido);
 	}
 
 	private static void ejercicio19() {
