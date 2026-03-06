@@ -184,14 +184,31 @@ public class main {
 	}
 
 	private static void ejercicio13() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE UN NUMERO: ");
+        int n = Math.abs(sc.nextInt());
+        int digitosPares = 0;
+        if (n == 0) digitosPares = 1;
+        else {
+            while (n > 0) {
+                if ((n % 10) % 2 == 0) digitosPares++;
+                n /= 10;
+            }
+            System.out.println("CANTIDAD DE DIGITOS PARES: " + digitosPares);
+        }
 	}
 
 	private static void ejercicio14() {
-		// TODO Auto-generated method stub
+		System.out.print("INGRESE N: ");
+        int n = sc.nextInt();
+        int suma = 0, k = 1;
+        while (suma < n) {
+            suma += k;
+            k++;
+        }
+        if (suma == n && n > 0) System.out.println(n + " ES UN NUMERO TRAINGULAR.");
+        else System.out.println(n + " NO ES TRIANGULAR.");
+    }
 		
-	}
 
 	private static void ejercicio15() {
 		// TODO Auto-generated method stub
