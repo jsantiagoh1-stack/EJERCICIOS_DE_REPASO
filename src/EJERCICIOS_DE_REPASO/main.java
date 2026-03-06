@@ -153,8 +153,17 @@ public class main {
 	}
 
 	private static void ejercicio10() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("1. SUMAR | 2. RESTAR | 3. MULTIPLICAR");
+        System.out.print("ELIJA UNA OPCION (1-3): ");
+        int opcion = sc.nextInt();
+        System.out.print("PRIMER NUMERO: "); int a = sc.nextInt();
+        System.out.print("SEGUNDO NUMERO: "); int b = sc.nextInt();
+        switch (opcion) {
+            case 1: System.out.println("SUMA: " + (a + b)); break;
+            case 2: System.out.println("RESTA: " + (a - b)); break;
+            case 3: System.out.println("MULTIPLICACION: " + (a * b)); break;
+            default: System.out.println("OPCION INVALIDAD.");
+        }
 	}
 
 	private static void ejercicio11() {
