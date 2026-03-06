@@ -260,7 +260,9 @@ public class main {
 	}
 
 	private static void ejercicio20() {
-		// TODO Auto-generated method stub
+		System.out.print("INGRESE TEMPERATURA EN CELCIUS: ");
+		double celsius = sc.nextDouble();
+		System.out.println("EN FAHRENHEIT: " + ((celsius * 9 / 5) + 32));
 		
 	}
 
