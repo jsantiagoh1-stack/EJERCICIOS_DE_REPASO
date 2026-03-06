@@ -140,8 +140,16 @@ public class main {
 	}
 
 	private static void ejercicio9() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE UN NUMERO (1-5): ");
+		int num = sc.nextInt();
+		switch (num) {
+		case 1: System.out.println("I"); break;
+		case 2: System.out.println("II"); break;
+		case 3: System.out.println("III"); break;
+		case 4: System.out.println("IV"); break;
+		case 5: System.out.println("V"); break;
+		default: System.out.print("NUMERO FUERA DE RANGO.");
+		}
 	}
 
 	private static void ejercicio10() {
