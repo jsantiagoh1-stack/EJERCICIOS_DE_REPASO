@@ -167,12 +167,19 @@ public class main {
 	}
 
 	private static void ejercicio11() {
-		// TODO Auto-generated method stub
-		
+		System.out.print("INGRESE PRIMER NUMERO: "); int a = sc.nextInt();
+        System.out.print("INGRESE SEGUNDO NUMERO: "); int b = sc.nextInt();
+        System.out.println("MAYOR: " + Math.max(a, b));
+        System.out.println("MENOR: " + Math.min(a, b));
+        System.out.println("DIFERENCIA: " + Math.abs(a - b));
 	}
 
 	private static void ejercicio12() {
-		// TODO Auto-generated method stub
+		System.out.print("INGRESE N: ");
+        double n = sc.nextDouble(); 
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " / " + i + " = " + (n / i));
+        }
 		
 	}
 
